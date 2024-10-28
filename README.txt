@@ -1,2 +1,2 @@
 -- 28.10.2024 -- 
-Projekt strony aktualnie zawiera tylko HTML, CSS i podpięty Bootstrap
+Projekt strony aktualnie zawiera HTML, CSS, jeden skrypt JS i podpięty Bootstrap
