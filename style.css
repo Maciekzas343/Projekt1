@@ -1,65 +1,69 @@
 /* styl.css */
 
-/* Reset i podstawowe ustawienia */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	
+	
 }
 
-/* Tło dla strony */
+
 body {
-    background-color: #f5f5f5; /* Jasne tło */
-    font-family: Arial, sans-serif; /* Ustawienie fontu */
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif; 
+	
 }
 
-/* Styl dla paska nawigacyjnego */
+
 .navbar {
-    background-color: #007bff; /* Kolor tła paska nawigacji */
+    background-color: #007bff; 
 }
 
-/* Styl dla linków w pasku nawigacyjnym */
+
 .nav-link {
     color: black;
 }
 
 .nav-link:hover {
-    color: #ffcc00; /* Kolor tekstu po najechaniu na link */
+    color: #ffcc00; 
 }
 
-/* Styl dla kontenerów */
+
 .container {
-    max-width: 800px; /* Maksymalna szerokość kontenera */
-    margin: auto; /* Wyśrodkowanie kontenera */
-    padding: 20px; /* Padding wewnętrzny */
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px; 
+	min-height: 1200px;
 }
 
 /* Styl dla sekcji z listą serwisów */
 h2 {
-    margin-top: 20px; /* Margines górny dla nagłówków */
-    color: #333; /* Kolor nagłówków */
+    margin-top: 20px; 
+    color: #333;
 }
 
 /* Styl dla elementów listy */
 .list-group-item {
-    background-color: #fff; /* Tło elementów listy */
-    border: 1px solid #ddd; /* Obramowanie elementów listy */
-    margin-bottom: 10px; /* Margines dolny */
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    margin-bottom: 10px; 
 }
 
 /* Styl dla formularza powiadomień */
 .powiadomienia {
-    margin-top: 20px; /* Margines górny */
+    margin-top: 20px; 
 }
 
 .form-group {
-    margin-bottom: 15px; /* Margines dolny dla grupy formularzy */
+    margin-bottom: 15px; 
 }
 
 /* Styl dla przycisku formularza */
 .btn {
-    background-color: #007bff; /* Kolor tła przycisku */
-    color: #fff; /* Kolor tekstu przycisku */
+    background-color: #007bff; 
+    color: #fff; 
 }
 
 .btn:hover {
@@ -68,11 +72,12 @@ h2 {
 
 /* Styl dla stopki */
 footer {
-    background-color: #333; /* Tło stopki */
-    color: white; /* Kolor tekstu w stopce */
-    text-align: center; /* Wyśrodkowanie tekstu w stopce */
-    padding: 10px 0; /* Padding górny i dolny */
-    position: relative; /* Ustawienie pozycji */
-    bottom: 0; /* Przypięcie do dolnej krawędzi */
-    width: 100%; /* Szerokość na 100% */
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0;
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+	margin-top: auto;
 }
