@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Śledzenie Serwisowania Auta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="naglowek">
+        <h1>Śledzenie Serwisowania Auta</h1>
+        <p>Monitoruj historię i nadchodzące przeglądy swojego samochodu.</p>
+    </div>
+
+    <div class="zawartosc">
+        <!-- Historia zakończonych serwisów -->
+        <div class="zrealizowane-serwisy">
+            <h2>Zrealizowane Serwisy</h2>
+            <ul>
+                <li>
+                    <span class="data-serwisu">2024-05-10</span>
+                    <span class="opis-serwisu">Wymiana oleju</span>
+                    <span class="koszt-serwisu">50 zł</span>
+                </li>
+                <li>
+                    <span class="data-serwisu">2024-03-15</span>
+                    <span class="opis-serwisu">Wymiana klocków hamulcowych</span>
+                    <span class="koszt-serwisu">120 zł</span>
+                </li>
+                <!-- Dodaj więcej zrealizowanych serwisów tutaj -->
+            </ul>
+        </div>
+
+        <!-- Lista nadchodzących serwisów -->
+        <div class="nadchodzace-serwisy">
+            <h2>Nadchodzące Serwisy</h2>
+            <ul>
+                <li>
+                    <span class="data-serwisu">2024-11-20</span>
+                    <span class="opis-serwisu">Rotacja opon</span>
+                    <span class="szacowany-koszt">40 zł</span>
+                </li>
+                <li>
+                    <span class="data-serwisu">2025-01-10</span>
+                    <span class="opis-serwisu">Kontrola akumulatora</span>
+                    <span class="szacowany-koszt">30 zł</span>
+                </li>
+                <!-- Dodaj więcej nadchodzących serwisów tutaj -->
+            </ul>
+        </div>
+
+        <!-- Ustawienia powiadomień SMS -->
+        <div class="powiadomienia">
+            <h2>Powiadomienia</h2>
+            <p>Włącz powiadomienia SMS o nadchodzących przeglądach:</p>
+            <form id="formularz-powiadomien">
+                <label for="telefon">Numer telefonu:</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="Wpisz numer telefonu" required>
+                <button type="submit">Włącz powiadomienia SMS</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="stopka">
+        <p>&copy; 2024 Śledzenie Serwisowania Auta</p>
+    </div>
+</body>
+</html>

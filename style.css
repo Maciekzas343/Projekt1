@@ -1,0 +1,128 @@
+/* Reset i podstawowe ustawienia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Nagłówek */
+.naglowek {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.naglowek h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Główna zawartość */
+.zawartosc {
+    flex: 1;
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sekcje dla poszczególnych części */
+div {
+    background-color: #fff;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+/* Lista serwisów */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.data-serwisu, .opis-serwisu, .koszt-serwisu, .szacowany-koszt {
+    font-size: 1em;
+}
+
+.data-serwisu {
+    font-weight: bold;
+    color: #444;
+}
+
+.koszt-serwisu, .szacowany-koszt {
+    color: #666;
+}
+
+/* Sekcja powiadomień */
+.powiadomienia p {
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: #555;
+}
+
+#formularz-powiadomien {
+    display: flex;
+    flex-direction: column;
+}
+
+#formularz-powiadomien label {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+#formularz-powiadomien input {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#formularz-powiadomien button {
+    padding: 0.7em;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#formularz-powiadomien button:hover {
+    background-color: #444;
+}
+
+/* Stopka */
+.stopka {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
