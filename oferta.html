@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Śledzenie Serwisowania Auta - Strona Główna</title>
+    <title>Śledzenie Serwisowania Auta - Oferta</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,13 +15,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Strona Główna</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="status.html">Status Auta</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="oferta.html">Oferta</a>
                 </li>
             </ul>
@@ -29,45 +29,21 @@
     </nav>
 
     <div class="container mt-4">
-        <h2>Zrealizowane Serwisy</h2>
+        <h2>Oferta</h2>
         <ul class="list-group">
             <li class="list-group-item">
-                <span class="data-serwisu">2024-05-10</span>
-                <span class="opis-serwisu">Wymiana oleju</span>
-                <span class="koszt-serwisu">50 zł</span>
+                <h3>Pakiet Podstawowy</h3>
+                <p>Wymiana oleju i filtrów. Cena: 200 zł.</p>
             </li>
             <li class="list-group-item">
-                <span class="data-serwisu">2024-03-15</span>
-                <span class="opis-serwisu">Wymiana klocków hamulcowych</span>
-                <span class="koszt-serwisu">120 zł</span>
+                <h3>Pakiet Komfortowy</h3>
+                <p>Wymiana oleju, filtrów oraz kontrola stanu technicznego. Cena: 300 zł.</p>
+            </li>
+            <li class="list-group-item">
+                <h3>Pakiet Premium</h3>
+                <p>Wszystko w Pakiecie Komfortowym + wymiana klocków hamulcowych. Cena: 500 zł.</p>
             </li>
         </ul>
-
-        <h2 class="mt-4">Nadchodzące Serwisy</h2>
-        <ul class="list-group">
-            <li class="list-group-item">
-                <span class="data-serwisu">2024-11-20</span>
-                <span class="opis-serwisu">Rotacja opon</span>
-                <span class="szacowany-koszt">40 zł</span>
-            </li>
-            <li class="list-group-item">
-                <span class="data-serwisu">2025-01-10</span>
-                <span class="opis-serwisu">Kontrola akumulatora</span>
-                <span class="szacowany-koszt">30 zł</span>
-            </li>
-        </ul>
-
-        <div class="powiadomienia mt-4">
-            <h2>Powiadomienia</h2>
-            <p>Włącz powiadomienia SMS o nadchodzących przeglądach:</p>
-            <form id="formularz-powiadomien">
-                <div class="form-group">
-                    <label for="telefon">Numer telefonu:</label>
-                    <input type="tel" class="form-control" id="telefon" name="telefon" placeholder="Wpisz numer telefonu" required>
-                </div>
-                <button type="submit" class="btn btn-primary">Włącz powiadomienia SMS</button>
-            </form>
-        </div>
     </div>
 
     <footer class="bg-dark text-white text-center py-3">
