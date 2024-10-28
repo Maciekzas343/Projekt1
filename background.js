@@ -1,7 +1,8 @@
 let currentBackground = 0; // Indeks aktualnego tła
 const backgrounds = [
     'url("background.jpg")',
-    'url("background1.jpg")'
+    'url("background1.jpg")',
+	'url("background2.jpg")'
 ];
 
 function changeBackground() {
@@ -9,11 +10,11 @@ function changeBackground() {
     document.body.style.backgroundImage = backgrounds[currentBackground];
     
     // Przełącz na następne tło
-    currentBackground = (currentBackground + 1) % backgrounds.length; // Zwiększ indeks i wróć do 0 po ostatnim tle
+    currentBackground = (currentBackground + 1) % backgrounds.length; 
 }
 
-// Zmiana tła co 15 sekund
+
 setInterval(changeBackground, 15000);
 
-// Wywołaj funkcję na początku, aby ustawić pierwsze tło
+
 changeBackground();

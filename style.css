@@ -9,6 +9,12 @@
 	
 }
 
+.navbar
+{
+	 background-color: #DCDCDC !important;
+}
+
+
 
 body {
     background-color: #DBD9DB; 
@@ -20,8 +26,10 @@ body {
 }
 
 
-.navbar {
-    background-color: #6E4555; 
+p, label
+{
+	color: #aeb0af !important;
+	
 }
 
 
@@ -30,8 +38,10 @@ body {
 }
 
 .nav-link:hover {
-    color: #ffcc00; 
+    color: #ffcc00;  
 }
+
+
 
 
 .container {
@@ -44,7 +54,7 @@ body {
 /* Styl dla sekcji z listą serwisów */
 h2 {
     margin-top: 20px; 
-    color: #333;
+    color: #aeb0af !important;
 }
 
 /* Styl dla elementów listy */
